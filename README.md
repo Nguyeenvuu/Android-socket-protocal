@@ -1,4 +1,4 @@
-# wifi-p2p-streaming
+# Android socket protocal
 
 ## About the Project 💡
 
@@ -18,5 +18,32 @@ This wraps all framework's Wifi-direct and CameraX APIs and packs into Android l
 * Add support for other protocols: `Streaming socket (TCP)`, `RTSP (Real Time Streaming Protocol)`.
 * Add streaming quality selections: `SD`, `HD`, `Full HD`.
 * Add support for other encoders: `HEVC(H265)`, `MPEG4`.
+
+## Sequence diagram ✏️
+<img src="screenshots/sequence-diagram.png" alt="sequence diagram">
+
+## Screenshots 🖼️
+**Main UI**
+
+<img src="screenshots/server-main-ui.png" width=280 alt="server-main-ui"> <img src="screenshots/client-main-ui.png" width=280 alt="client-main-ui">
+
+
+**Discover peers and request connection**
+
+<img src="screenshots/client-peer-discovery.png" width=280 alt="client-peer-discovery"> <img src="screenshots/server-incoming-invitation.png" width=280 alt="server-incoming-invitation">
+
+
+**Connection established and streaming**
+
+<img src="screenshots/server-connected.png" width=280 alt="server-connected"> <img src="screenshots/client-connected.png" width=280 alt="client-connected">
+
+
+**Client side settings**
+
+<img src="screenshots/client-quality-selection.png" width=280 alt="client-quality-selection">
+
+**Client recording**
+
+<img src="screenshots/client-recording.png" width=280 alt="client-recording">
 
 
