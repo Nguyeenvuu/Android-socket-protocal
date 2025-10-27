@@ -2,8 +2,8 @@ package projectConfig
 
 
 object AndroidConfig {
-    const val serverAppId = "com.andyha.p2p.streaming.server"
-    const val clientAppId = "com.andyha.p2p.streaming.client"
+    const val serverAppId = "com.lucas.p2p.streaming.server"
+    const val clientAppId = "com.lucas.p2p.streaming.client"
     const val minSdkVersion = 23
     const val targetSdkVersion = 33
     const val compileSdkVersion = 33
